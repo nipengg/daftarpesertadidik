@@ -1,0 +1,37 @@
+.sidebar{
+    width: 200px;
+    background-color: rgb(128, 128, 128);
+    padding: 20px 0 0 0;
+    height: 100vh;
+    position: relative;
+    top: -20px;
+}
+
+.sidebar img{
+    border-radius: 50px;
+}
+
+.sidebar h5{
+    color: white;
+    margin-top: 10px;
+}
+
+/*.item-container{
+
+}*/
+
+.menu-item{
+    width: 200px;
+    padding: 10px 0 10px 20px;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    background-color: lightgray;
+}
+
+.items-container a{
+    text-decoration: none;
+    color: white;
+}
